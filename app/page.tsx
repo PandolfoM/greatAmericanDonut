@@ -17,7 +17,7 @@ export default function Home() {
           className="object-cover w-full max-h-[41rem]"
         />
       </section>
-      <section className="bg-[#c63663] text-white text-center flex justify-center items-center flex-col p-5 mb-5 md:p-10">
+      <section className="bg-black text-white text-center flex justify-center items-center flex-col p-5 mb-5 md:p-10">
         <h1 className="font-bold text-2xl">Great American Donut</h1>
         <p className="text-sm md:w-[60rem]">
           You are applying for work with a franchisee of Dunkin' Donuts, not
@@ -42,7 +42,7 @@ export default function Home() {
         <a
           href="https://gadct.com"
           target="_blank"
-          className="bg-[#c63663] text-white text-center py-3 px-6 rounded-sm font-bold cursor-pointer">
+          className="bg-black text-white text-center py-3 px-6 rounded-sm font-bold cursor-pointer">
           JOIN NOW
         </a>
       </section>
