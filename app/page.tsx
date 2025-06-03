@@ -2,6 +2,8 @@ import Image from "next/image";
 import hero from "@/app/assets/hero.jpg";
 import dunkin from "@/app/assets/dunkin.svg";
 
+const year = new Date().getFullYear();
+
 export default function Home() {
   return (
     <div>
@@ -66,8 +68,8 @@ export default function Home() {
           INFORMATION, ENROLLMENT IN DD PERKS, CUSTOMER FEEDBACK AND MORE!
         </a>
         <p className="text-sm pt-4">
-          © 2025 Great American Donut. The Dunkin' Donuts trademarks, logos and
-          designs are trademarks of DD IP Holder, LLC. Used under license.
+          © {year} Great American Donut. The Dunkin' Donuts trademarks, logos
+          and designs are trademarks of DD IP Holder, LLC. Used under license.
         </p>
       </footer>
     </div>
