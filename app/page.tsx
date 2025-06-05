@@ -67,10 +67,16 @@ export default function Home() {
           CLICK HERE TO VISIT THE OFFICIAL DUNKIN' DONUTS WEB SITE FOR NUTRITION
           INFORMATION, ENROLLMENT IN DD PERKS, CUSTOMER FEEDBACK AND MORE!
         </a>
-        <p className="text-sm pt-4">
+        <p className="text-sm pt-4 pb-10">
           © {year} Great American Donut. The Dunkin' Donuts trademarks, logos
           and designs are trademarks of DD IP Holder, LLC. Used under license.
         </p>
+        <a
+          href="https://www.mjpwebsolutions.com/"
+          target="_blank"
+          className="text-xs flex justify-center items-center">
+          Built by MJP Web Solutions
+        </a>
       </footer>
     </div>
   );
