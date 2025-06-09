@@ -20,13 +20,13 @@ export default function Home() {
       <section className="bg-black text-white text-center flex justify-center items-center flex-col p-5 mb-5 md:p-10">
         <h1 className="font-bold text-2xl">Great American Donut</h1>
         <p className="text-sm md:w-[60rem]">
-          You are applying for work with a franchisee of Dunkin' Donuts, not
-          Dunkin' Brands, Inc. or any of its affiliates. Any application or
-          information you submit will be provided solely to the franchisee. If
-          hired, the franchisee will be your only employer. Franchisees are
-          independent business owners who are solely responsible for their own
-          employees and set their own wage and benefit programs that can vary
-          among franchisees.
+          You are applying for work with a franchisee of Dunkin', not Dunkin'
+          Brands, Inc. or any of its affiliates. Any application or information
+          you submit will be provided solely to the franchisee. If hired, the
+          franchisee will be your only employer. Franchisees are independent
+          business owners who are solely responsible for their own employees and
+          set their own wage and benefit programs that can vary among
+          franchisees.
         </p>
       </section>
       <section className="text-center m-auto md:w-[60rem]">
@@ -40,7 +40,7 @@ export default function Home() {
       </section>
       <section className="flex justify-center py-10 m-auto md:py-10 md:w-[60rem]">
         <a
-          href="https://gadct.com"
+          href="https://recruitingbypaycor.com/career/CareerHome.action?clientId=8a7883d096d0d55a01970292f7d70c43"
           target="_blank"
           className="bg-black text-white text-center py-3 px-6 rounded-sm font-bold cursor-pointer">
           JOIN NOW
@@ -64,12 +64,12 @@ export default function Home() {
           className="!underline text-sm/tight"
           href="https://www.dunkindonuts.com/en"
           target="_blank">
-          CLICK HERE TO VISIT THE OFFICIAL DUNKIN' DONUTS WEB SITE FOR NUTRITION
+          CLICK HERE TO VISIT THE OFFICIAL DUNKIN' WEB SITE FOR NUTRITION
           INFORMATION, ENROLLMENT IN DD PERKS, CUSTOMER FEEDBACK AND MORE!
         </a>
         <p className="text-sm pt-4 pb-10">
-          © {year} Great American Donut. The Dunkin' Donuts trademarks, logos
-          and designs are trademarks of DD IP Holder, LLC. Used under license.
+          © {year} Great American Donut. The Dunkin' trademarks, logos and
+          designs are trademarks of DD IP Holder, LLC. Used under license.
         </p>
         <a
           href="https://www.mjpwebsolutions.com/"
