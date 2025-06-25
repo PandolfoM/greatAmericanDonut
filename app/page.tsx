@@ -43,7 +43,7 @@ export default function Home() {
           href="https://recruitingbypaycor.com/career/CareerHome.action?clientId=8a7883d096d0d55a01970292f7d70c43"
           target="_blank"
           className="bg-black text-white text-center py-3 px-6 rounded-sm font-bold cursor-pointer">
-          JOIN NOW
+          APPLY NOW
         </a>
       </section>
       <footer className="text-center w-[90%] m-auto pb-5 md:w-[60rem]">
