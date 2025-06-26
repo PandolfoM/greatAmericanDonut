@@ -72,7 +72,7 @@ export default function Home() {
           designs are trademarks of DD IP Holder, LLC. Used under license.
         </p>
         <a
-          href="https://www.mjpwebsolutions.com/"
+          href="https://mjpwebsolutions.com/"
           target="_blank"
           className="text-xs flex justify-center items-center">
           Built by MJP Web Solutions
