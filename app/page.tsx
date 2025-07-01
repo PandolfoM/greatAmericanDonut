@@ -34,7 +34,7 @@ export default function Home() {
         <p className="text-sm">
           Our company vision is to provide opportunities for each crew member to
           stretch their limits and grow their job into a possible career. As
-          Connecticut's largest Dunkin' franchisee, we operate over 45
+          Connecticut's largest Dunkin' franchisee, we operate over 40
           locations, so consider joining our team and taking the next step.{" "}
         </p>
       </section>
