@@ -1,4 +1,3 @@
-import Image from "next/image";
 import hero from "@/app/assets/hero.jpg";
 import dunkin from "@/app/assets/dunkin.svg";
 
@@ -8,10 +7,10 @@ export default function Home() {
   return (
     <div>
       <nav className="h-14 flex items-center justify-center fixed w-full bg-white md:h-24 md:justify-start md:px-10">
-        <Image src={dunkin} alt="dunkin" className="w-40 md:w-60" />
+        <img src={dunkin} alt="dunkin" className="w-40 md:w-60" />
       </nav>
       <section className="pt-14 md:pt-24">
-        <Image
+        <img
           src={hero}
           alt="Great American Donut"
           className="object-cover w-full max-h-[41rem]"

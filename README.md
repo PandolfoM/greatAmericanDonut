@@ -1,36 +1,23 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Great American Donut
 
-## Getting Started
+Careers landing page for Great American Donut, a Dunkin' franchisee.
 
-First, run the development server:
+A Vite + React Router single-page app. The build in `dist/` is served from
+S3 + CloudFront by MJP Hub, which returns `index.html` for every path.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+| Command | What it does |
+|---|---|
+| `npm install` | installs dependencies |
+| `npm run dev` | dev server on http://localhost:3000 |
+| `npm run build` | type-checks, then builds the static site into `dist/` |
+| `npm run preview` | serves `dist/` locally |
+| `npm run typecheck` | `tsc --noEmit` |
+| `npm run lint` | ESLint |
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Layout
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- `index.html`: the page's `<head>` (title, description, icon)
+- `app/main.tsx`: entry point
+- `app/router.tsx`: routes; pages load on demand, anything unknown gets `app/not-found.tsx`
+- `app/page.tsx`: the home page
+- `app/assets/`: images imported by pages; `public/`: files served as-is (favicon)

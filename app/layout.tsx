@@ -1,26 +1,7 @@
-import type { Metadata } from "next";
-import { Oxygen } from "next/font/google";
-import "./globals.css";
+import { Outlet } from "react-router";
 
-const proximaNova = Oxygen({
-  variable: "--font-oxygen",
-  subsets: ["latin"],
-  weight: ["300", "400", "700"],
-});
-
-export const metadata: Metadata = {
-  title: "Great American Donut",
-  description: "Great American Donut",
-};
-
-export default function RootLayout({
-  children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
-  return (
-    <html lang="en">
-      <body className={`${proximaNova.className} antialiased`}>{children}</body>
-    </html>
-  );
+// Wraps every page. The page's <head> (title, description, icon) is static,
+// in index.html.
+export default function RootLayout() {
+  return <Outlet />;
 }
